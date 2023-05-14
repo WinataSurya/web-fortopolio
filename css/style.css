@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Sora:wght@600&display=swap');
+
+
+*{
+  font-family: 'Inter';
+}
+
+body{
+  background-color: #272727;
+}
+
+/* Navbar */
+.bg-navbar {
+  background-color: #272727;
+}
+
+ul li a.nav-link{
+  color: #c9c9c9;
+}
+
+ul li a.nav-link:hover{
+  color: #ffffff;
+}
+
+.custom-nav{
+  border-bottom:1px solid #6c757d ;
+  
+} 
+
+/* Isi Halaman */
+.about{
+  color: #80FFA3;
+  line-height: 60px;
+}
+
+.konten-isi {
+  width: 90%;
+}
+
+.img-profil{
+  border:1px solid #80FFA3;
+}
+
+.konten-grafi h4{
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.konten-grafi p{
+  color: #c9c9c9;
+}
+
+.konten-sosial a{
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.card-custom{
+  width: 45%;
+  margin-left: 5%;
+  background-color: rgb(61, 61, 61);
+}
+
+.icon-custom{
+  top: -30px;
+  background-color: rgb(61, 61, 61);
+  border: 1px solid #80FFA3;
+}
+
+.card-skill{
+  background-color: rgb(46, 49, 69);
+}
+
+.card-skill p{
+  text-align: justify;
+}
+
+/* portofolio */
+.portofolio{
+  padding-top: 50px;
+}
+
+.portofolio h2{
+  font-family: "Sora";
+  font-size: 48px;
+}
+
+.portofolio h3{
+  font-family: "Sora";
+  font-size: 48px;
+  margin: 15px 0;
+}
+
+.portofolio p{
+  line-height: 25px;
+  text-align: justify;
+}
+
+.tombol{
+  background-color: #323443;
+  color: #6c757d;
+}
+
+.tombol:hover{
+  background-color: #62D9FF;
+  color: #fff;
+  transition: ease 0.3s;
+}
+
+.border-footer{
+  border-top: 1px solid #6c757d;
+}
+
+.footer{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer a{
+  font-size: 28px;
+  color: #fff;
+}
+
+/* page portofolio */
+.heading-text h2,span{
+  font-size: 48px;
+  font-family: "Sora";
+  color: #fff;
+}
+
+/* manual */
+.container-custom{
+  background-color: #323443;
+  border-radius: 5px;
+  width: 100%;
+  height: 20pc;
+  overflow: hidden;
+}
+
+.container-custom img{
+  transition: ease .5s;
+}
+
+.container-custom img:hover{
+  transform: scale(2);
+}
+
+
+.kotak-arrow{
+  background-color: #c9c9c9;
+  padding: 6px;
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  top: 10px;
+  right: 10px;
+  
+}
+
+.img-arrow{
+  rotate: -45deg;
+  color: #fff;
+}
+
+
